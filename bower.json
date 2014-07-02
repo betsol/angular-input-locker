@@ -1,0 +1,11 @@
+{
+    "name": "angular-input-locker",
+    "description": "AngularJS module to provide form input locking",
+    "version": "1.0.0",
+    "main": "dist/angular-input-locker.js",
+    "dependencies": {
+        "angular": "1.2.19"
+    },
+    "devDependencies": {
+    }
+}
