@@ -41,6 +41,8 @@ var application = angular.module('application', [
 By calling `setLockOnRouteChange(true)` of `inputLockerProvider` you can enable automatic input locking during route transitions.
 
 You can also change selector that is used to filter input elements by calling `setSelector(newSelector)`.
+Although, you don't really need to do this.
+By default, all input controls on the page will be affected.
 
 **Example #1**
 
@@ -119,4 +121,4 @@ THE SOFTWARE.
 [so-ask]: http://stackoverflow.com/questions/ask?tags=angularjs,javascript
 [email]: mailto:s.fomin@betsol.ru
 [jsfiddle]: http://jsfiddle.net/
-[new-issue]: issues/new
+[new-issue]: https://github.com/betsol/angular-input-locker/issues/new
