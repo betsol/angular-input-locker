@@ -1,16 +1,14 @@
-var gulp = require('gulp');
-var clean = require('gulp-clean');
+var del    = require('del');
+var gulp   = require('gulp');
 var rename = require('gulp-rename');
 var uglify = require('gulp-uglify');
-var gutil = require('gulp-util');
+var gutil  = require('gulp-util');
 
-gulp.task('clean', function () {
-    gulp.src('dist/', { read: false })
-        .pipe(clean())
-    ;
+gulp.task('clean', function (callback) {
+    del(['dist'], callback);
 });
 
-gulp.task('default', function () {
+gulp.task('build', function () {
     gulp.src('src/angular-input-locker.js')
         .pipe(uglify())
         .pipe(rename('angular-input-locker.min.js'))
@@ -22,3 +20,6 @@ gulp.task('default', function () {
         .on('error', gutil.log)
     ;
 });
+
+// @todo: make sure build is called AFTER the clean.
+gulp.task('default', ['clean', 'build']);

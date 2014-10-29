@@ -1,23 +1,9 @@
 {
-    "name": "angular-input-locker",
-    "version": "1.0.1",
-    "description": "AngularJS module to provide form input locking",
-    "main": "dist/angular-input-locker.js",
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/betsol/angular-input-locker.git"
-    },
-    "author": "Slava Fomin II",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/betsol/angular-input-locker/issues"
-    },
-    "homepage": "https://github.com/betsol/angular-input-locker",
     "devDependencies": {
-        "gulp": "~3.8",
-        "gulp-rename": "~1.2",
-        "gulp-clean": "~0.2",
-        "gulp-uglify": "~0.3",
-        "gulp-util": "~2.2"
+        "del": "~0",
+        "gulp": "~3",
+        "gulp-rename": "~1",
+        "gulp-uglify": "~0",
+        "gulp-util": "~2"
     }
 }

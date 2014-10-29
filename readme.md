@@ -1,4 +1,4 @@
-# angular-input-locker
+# angular-input-locker 1.0.2
 
 ## Description
 
@@ -12,7 +12,15 @@ There is a way to enable locking and unlocking during route transitions automati
 - Can lock and unlock input elements automatically during route transitions
 - You can customize the selector used to filter input elements
 
+### Demo
+
+Feel free to play with the [Demo][demo].
+
 ## Installation
+
+### Dependencies
+
+This module requires [jQuery][jquery] to work.
 
 ### Install library with bower
 
@@ -87,8 +95,8 @@ in this GitHub repository.
 
 If you have a question - file it with [StackOverflow][so-ask] and send me a
 link to [s.fomin@betsol.ru][email]. I will be glad to help.
-Also, please add a [JSFiddle][jsfiddle] to demonstrate the issue if appropriate.
-You can even fork our [demo fiddle][demo].
+Also, please create a [plunk][plunker] to demonstrate the issue if appropriate.
+You can even fork our [demo plunk][demo].
 
 Have any ideas or propositions? Feel free to contact me by [E-Mail][email].
 
@@ -120,5 +128,7 @@ THE SOFTWARE.
 
 [so-ask]: http://stackoverflow.com/questions/ask?tags=angularjs,javascript
 [email]: mailto:s.fomin@betsol.ru
-[jsfiddle]: http://jsfiddle.net/
+[plunker]: http://plnkr.co/
 [new-issue]: https://github.com/betsol/angular-input-locker/issues/new
+[jquery]: http://jquery.com/
+[demo]: http://plnkr.co/edit/Ox4Lo5aDmqlckVt1wZZQ?p=preview
